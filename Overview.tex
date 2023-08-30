@@ -1,0 +1,427 @@
+\documentclass{beamer}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{inputenc}
+\usepackage{multirow}
+\usepackage{appendixnumberbeamer}
+\usepackage{FiraSans}
+\usepackage[sectionbib, round, longnamesfirst, nonamebreak]{natbib}
+\usetheme[numbering=fullbar]{focus}
+
+%\usepackage{beamerthemesplit} // Activate for custom appearance
+
+\title{Probative Foundations \\
+		For Bayesian Statistics?}
+\author{David Mwakima \\
+		Logic and Philosophy of Science\\
+		University of California\\
+		Irvine, CA USA}
+\date{Overview of Research}
+
+\AtBeginSection[]
+{
+\begin{frame}
+	\tableofcontents[currentsection]
+\end{frame}
+}
+
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\section{Introduction}
+
+ \begin{frame}{Outline of my presentation}
+        \tableofcontents
+    \end{frame}
+    
+\section{Background and Overview of Proposed Research}
+
+\begin{frame}{What got me interested? \\ The Centrality of Evidence}
+        \begin{enumerate}
+        \item In epistemology and metaphysics, ``A wise man proportions his belief to the \textbf{evidence}.'' \citet{Hume1748}
+        \vfill
+        \item ``Quality of Evidence'' and the contemporary scientific realism debate.
+\vfill
+\begin{quote}
+              
+[Laudan's pessimistic meta-induction argument] disregards potentially important differences in \textbf{the quality and quantity of evidence} there is for current theories (differences that would justify treating current theories as more supported by \textbf{available evidence} than past theories were by the then \textbf{available evidence}); but also because it makes a mockery of looking for \textbf{evidence for scientific theories}! 
+
+\citet{Psillos2018}
+\end{quote}
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{What got me interested? \\ The Centrality of Evidence}
+
+\begin{enumerate}
+
+\item[2.] ``Quality of Evidence'' and the contemporary scientific realism debate.
+\vfill
+\begin{quote}
+The realism debate itself is most fundamentally concerned with whether there is any general or categorical \textbf{variety of} empirical success or \textbf{evidential support} that serves as a \textbf{reliable indicator} that a theory (or its privileged parts) will be retained and ratified throughout the course of further inquiry.
+
+\citet{Stanford2021}
+\end{quote}
+
+\end{enumerate}
+\end{frame}
+
+	\begin{frame}{What Everyone has Been Talking About: \\ Perrin's evidence for the Atomic Theory}
+		 \begin{quote}
+I've been suggesting all along, on the Second Philosopher's behalf, that \textbf{the evidence} involved in establishing the atomic hypothesis \textbf{wasn't just more of the same}, but \textbf{a new type of evidence} altogether, what we've been calling `detection.'
+
+\citet[405]{Maddy2007}
+		\end{quote}
+	\end{frame}
+  
+
+	\begin{frame}{Evidence and its Quality}
+
+	\begin{enumerate}
+
+		\item Informal: epistemology, Quine, Maddy etc.
+		\vfill
+		\item Formal: inductive logic and formal epistemology, Carnap etc.
+		\vfill
+		\item Semi-formal: Achinstein, Roush
+		\vfill
+		\item \alert{Statistics: statistical evidence}: Bayes Factors, odds ratios, likelihood ratios, Mayo's Severity Function, $p$-values?
+
+\end{enumerate}
+
+\end{frame}
+
+
+\begin{frame}{Royall's Three Questions: \\
+ Choosing a Paradigm to Assess the Quality of Evidence}
+	\begin{enumerate}
+		\item What should I believe, now that I have this observation? \alert{Bayesianism}
+\vfill
+		\item What should I do, now that I have this observation? \alert{Frequentist/Classical Statistics}
+\vfill
+		\item How do I interpret this body of observation as evidence? \alert{Likelihoodism}
+	\end{enumerate}
+\end{frame}
+
+	\begin{frame}{Likelihoodism\\ Is this all you need?}
+        \begin{enumerate}
+        \item \textbf{The Law of Likelihood}
+        \vfill
+        Evidence $E$ for $M_{1}$ is stronger than the evidence $E$ for $M_{2}$ if $p(E| M_{1}) > p(E | M_{2})$, i.e., the likelihood ratio $\frac{p(E|M_{1})}{p(E|M_{2})}>1$
+        
+        \vfill
+        
+        \item \textbf{Likelihood Principle}
+        \vfill
+\begin{itemize}
+\item  In making inferences or decisions about $\theta$ after $x$ is observed, all relevant experimental information is contained in the likelihood function for the observed $x$. Furthermore, two likelihood functions contain the same information about $\theta$ if they are proportional to each other (as functions
+of $\theta$).
+\vfill
+\item All the information necessary and sufficient for quantifying how data give rise to statistical evidence is contained in the likelihood functions.
+\end{itemize}
+        \end{enumerate}
+	\end{frame}
+    
+	\begin{frame}{What more do we need?\\ Mayo's Minimal Requirement for Severity}
+	\begin{enumerate}
+	\item \textbf{Severe testing}
+	
+\begin{quote}
+A claim $C$ is \textbf{severely tested} to the extent that it has been subjected to and passes a test that probably would have found flaws, were they present.
+\end{quote}
+
+	\item \textbf{Error Probabilities}
+	
+\begin{quote}
+	The capability of a method or rule for statistical inference to detect flaws, were they present is gauged using the methods \textbf{error probabilities}.
+\end{quote}
+
+	\end{enumerate}
+	
+	\vfill
+	\begin{block}{Minimal Requirement for Severity}
+	If data $\textbf{x}$ agree with a claim $C$ but the method was practically incapable of finding flaws with $C$ even if they exist, then $\textbf{x}$ is poor evidence for $C$.
+	\end{block}
+	
+    \end{frame}
+    
+    \begin{frame}{Ending the ``Statistical Wars'':\\Beyond Probabilism and Performance}
+        \begin{enumerate}
+        \item \textbf{Probabilism}:
+A view of statistical inference and statistical evidence is probabilist if it relies on \textbf{probabilities} understood as degrees of actual or rational belief in a claim to arrive at absolute or comparative measures of the evidence one has for those claims. \alert{Bayesianism and Likelihoodism}
+        
+        \item \textbf{Performance}:
+A view of statistical inference and statistical evidence is \textbf{performance}-based if it appeals to long-run error rates of its procedures to justify the reliability of those procedures. \alert{Neyman-Pearson Hypothesis Testing}
+        
+        \item \textbf{Probativism}:
+ A view of statistical inference and statistical evidence is probativist if it requires the control of long-run error rates and the \textbf{probing of methods}, tests and procedures for severity. \alert{Mayo's Error Statistical Framework}
+        \end{enumerate}
+	\end{frame}
+	
+\begin{frame}{Ending the ``Statistical Wars'':\\Beyond Probabilism and Performance}
+
+\begin{block}{Against the Law of Likelihood}
+The Law of Likelihood does not satisfy the minimal requirement for severity.
+\end{block}
+	\begin{itemize}
+
+	\item Recall the Law of Likelihood: Evidence $E$ for $M_{1}$ is stronger than the evidence $E$ for $M_{2}$ if $p(E| M_{1}) > p(E | M_{2})$, i.e., the likelihood ratio $\frac{p(E|M_{1})}{p(E|M_{2})}>1$.
+
+	\item Call an alternative hypothesis $H_{1}$ \textbf{Gellerized} just in case the probability of a likelihood ratio in favor of $H_{1}$ over $H_{0}$ is \textbf{maximal}.
+	\item One can show that a Gellerized alternative hypothesis $H_{1}$ always exists for any $H_{0}$ (that is not itself a Gellerized hypothesis for the data $\textbf{x}$ at hand).
+
+	\end{itemize}
+
+	
+\end{frame}
+
+
+\begin{frame}{Ending the ``Statistical Wars'':\\Beyond Probabilism and Performance}
+
+\begin{block}{Against the Likelihood Principle}
+The Likelihood Principle doesn't satisfy the minimal requirement for severity.
+\end{block}
+\begin{itemize}
+\item One consequence of the Likelihood Principle is ``the irrelevance of optional stopping rules.''
+\item In an ideal case, a scientist ought to report the \textbf{actual} statistical significance of her results --- the $p$-value --- only based on her original sample size or fixed number of trials $n$. 
+\item Does ``trying and trying again'' until one gets a statistically significant result constitute a questionable research practice? \alert{Bayesians and Likelihoodists say, ``It doesn't matter!''}
+\item \alert{``[D]ata do not speak for themselves.''} \citep[439]{Mayo2018}
+
+\end{itemize}
+	
+\end{frame}
+	
+	\begin{frame}{The Challenge for Bayesian Statistics}
+	\begin{quote}
+For the error statistician, as long as an account is restricted to priors and likelihoods, it still \textbf{leaves out the essential ingredient for objectivity: the sampling distribution}, the basis for error probabilities and severity assessments. Classical Bayesians, both subjective and default, reject this appeal to ``frequentist objectivity'' as solely rooted in claims about long-run performance. \textbf{Failure} to craft a justification in terms of \textbf{probativeness} means that there's uncharted territory, waiting to be developed.
+
+\citet[231]{Mayo2018}
+\end{quote}
+	\end{frame}
+
+	
+	\begin{frame}{Can the challenge be met? \\
+	This is My Proposed Research Project}
+	
+	\begin{enumerate}
+	
+	\item \textbf{Which philosophy?} Subjective Bayesianism vs. Objective (Default/Pragmatic) Bayesianism and the Likelihood Principle. 
+	\vfill
+	\item Must we \textbf{unify} or can a subjective Bayesian statistician \textbf{accommodate} the probativist requirements for statistical evidence? 
+	\vfill
+	\begin{quote}
+	The idea of error statistical foundations for Bayesian tools is not as preposterous as it may seem. \citep[28 -- 29]{Mayo2018}
+	\end{quote}
+	
+	\vfill
+	\item How exactly does Mayo's framework, which requires \textbf{the sampling distribution for objectivity}, allow us to get beyond the statistics wars by being general enough to provide a conceptual or philosophical background for Bayesian statistics?
+	
+	\end{enumerate}
+	
+	\end{frame}
+    
+\appendix
+    \begin{frame}{References}
+        \bibliographystyle{Naturalism}
+		\bibliography{Prospectus}
+    \end{frame}
+    
+
+\begin{frame}{Appendix: More on Severity}
+\begin{block}{Strong Requirement for Severity}
+If $C$ passes a test that was highly capable of finding flaws or discrepancies from $C$, and yet none or few are found, then the passing result, \textbf{x}, is evidence for $C$.
+\end{block}
+\begin{itemize}
+\item We have evidence for a claim $C$ just to the extent it survives a stringent scrutiny.
+\end{itemize}
+\begin{block}{Minimal (Weak) Requirement for Severity}
+If data $\textbf{x}$ agree with a claim $C$ but the method was practically incapable of finding flaws with $C$ even if they exist, then $\textbf{x}$ is poor evidence for $C$.
+\end{block}
+\begin{itemize}
+\item We do not have evidence for a claim $C$ if there was no stringent scrutiny.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Appendix: Severity Interpretation for Negative Results}
+\begin{enumerate}
+\item[(a)] \textbf{Low}: If there is very \textbf{low} probability that $d(x_{0})$ would have been larger than it is, even if $H_{1}$ is true, then $H_{0}$ passes with low severity: $\textsf{SEV}(H_{0})$ is low.
+\begin{itemize}
+\item Your test wasn't very capable of detecting discrepancy even if it existed. So when it is not detected, it is poor evidence of its absence.
+\end{itemize}
+
+\item[(b)] \textbf{High}: If there is a very \textbf{high} probability that $d(x_{0})$ would have been larger than it is, were $H_{1}$ is true, then $H_{0}$ passes the test with high severity: $\textsf{SEV}(H_{0})$ is high.
+
+\begin{itemize}
+\item Your test was highly capable of detecting discrepancy if it existed. So when it is not detected, it is a good indication of its absence.
+\end{itemize}
+
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Appendix: Severity Interpretation for Significant Results}
+\begin{enumerate}
+\item[(a)] \textbf{Low}: If there is a fairly \textbf{high} probability that $d(x_{0})$ would have been larger than it is, even if $H_{0}$ is true, then $d(x_{0})$ is not a good indication for $H_{1}$: $\textsf{SEV}(H_{1})$ is low.
+\item[(b)] \textbf{High}: If there is a very \textbf{low} probability that so large a $d(x_{0})$ would have resulted, if $H_{0}$ were true, then $d(x_{0})$ indicates $H_{1}$: $\textsf{SEV}(H_{1})$ is high.
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}{Appendix: Ending the ``Statistical Wars'':\\Beyond Probabilism and Performance}
+\begin{block}{Against the Likelihood Principle}
+The Likelihood Principle doesn't satisfy the minimal requirement for severity.
+\end{block}
+\begin{itemize}
+
+\item One consequence of the Likelihood Principle is ``the irrelevance of optional stopping rules.''
+
+\item Let $s$ denote the number of favorable outcomes (each with a probability 0.5) of a sequence of Bernoulli trials and $n$ the number of trials.
+
+\item Continued on next slide....
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Appendix: Ending the ``Statistical Wars'':\\Beyond Probabilism and Performance}
+\begin{center} A Tale of Two Experiments \end{center}
+
+\begin{columns}[t, onlytextwidth]     
+            \column{0.5\textwidth}{\textbf{Experiment 1}}
+                \begin{enumerate}
+                   \item \textbf{Stopping Rule}: Stop experiment after 16 favorable outcomes.
+                   \item Suppose the 16th favorable outcome occurs on the 24th Bernoulli trial.
+                   \item $P(n = 24) = \binom{24 - 1}{16 - 1}(0.5)^{16}(0.5)^{8}$
+                   \item Attained significance level ($p$-value) is \textcolor{blue}{0.077}.                
+                   \end{enumerate}
+            
+            \column{0.50\textwidth}{\textbf{Experiment 2}}
+            
+                \begin{enumerate}
+                    \item \textbf{Stopping Rule}: Stop experiment after 24 Bernoulli trials.
+                    \item Suppose you obtain 16 favorable outcomes.
+                    \item $P(s = 16) = \binom{24}{16}(0.5)^{16}(0.5)^{8}$
+                    \item Attained significance level ($p$-value) is \textcolor{red}{0.032}.
+                \end{enumerate}
+        \end{columns}      
+\end{frame} 
+
+\begin{frame}{Appendix: Objective Bayesianism vs. Subjective Bayesianism
+And the Likelihood Principle}
+ 
+ \begin{enumerate}
+ \item Objective (Default/Pragmatic Bayesianism): Priors are chosen such that the likelihoods based on the experiment/data dominate the computation of the posteriors. Box and Tiao (1973, 44)
+ \item The prior density is \textbf{locally} uniform over the parameter space.
+   \item \textbf{Jeffrey's prior}: A prior distribution for a single parameter $\theta$ is approximately noninformative if it taken proportional to the square root of Fisher's information measure.
+   \item ``The form of the prior \textbf{must} then depend on the expected likelihood.'' Box and Tiao (1973, 44)
+   \item Locally uniform prior for Binomial (fixed n): $\textsf{arcsin}(\sqrt{\theta})$
+   \item Locally uniform prior for Negative Binomial (fixed s): $\textsf{log}\big(\frac{1 - \sqrt{1 - \theta}}{1 - \sqrt{1 - \theta}}\big)$
+ \end{enumerate}
+ 
+\end{frame}
+
+\begin{frame}{Appendix: Bayes Factor}
+        \begin{columns}[t, onlytextwidth]
+            \column{0.45\textwidth}
+                \begin{equation}
+\pi(M_{1} | D) = \frac{p(D | M_{1}) \pi(M_{1})}{p(D)}
+\end{equation}
+
+\begin{equation}
+\pi(M_{2} | D) = \frac{p(D | M_{2}) \pi(M_{2})}{p(D)} 
+\end{equation}
+            
+            \column{0.50\textwidth}
+Write equation (1) and (2) as:
+\begin{equation}
+\frac{\pi(M_{1} | D)}{\pi(M_{1})} = \frac{p(D | M_{1})}{p(D)}
+\end{equation}
+\begin{equation}
+\frac{\pi(M_{2} | D)}{\pi(M_{2})} = \frac{p(D | M_{2})}{p(D)}
+\end{equation}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Appendix: Bayes Factor}
+\begin{equation}
+\frac{\frac{\pi(M_{1} | D)}{\pi(M_{1})}}{\frac{\pi(M_{2} | D)}{\pi(M_{2})}} = \boxed{\frac{p(D | M_{1})}{p(D | M_{2})}}
+\end{equation}
+
+The right hand side of equation (5) can be used to quantify the \textbf{relative predictive accuracy} of our models. This quotient is the \textbf{Bayes Factor}.
+    \end{frame}
+    
+\begin{frame}{Appendix: Bayes' Theorem Continuous Case}
+
+\[
+\pi(M_{1}| D) = \frac{\int_{\Theta}p(D | \theta)\pi(\theta | M_{1})d\theta \pi(M_{1})}{\sum_{i = 1}^{n}\int_{\Theta}p(D | \theta)\pi(\theta | M_{i})d\theta \pi(M_{i})}
+\]
+\vfill
+\begin{enumerate}
+\item $\Theta$ is the parameter space.\footnote{See Handbook(2011, 595ff.)
+}
+\item $\pi(\theta | M_{i})$ is the prior on the parameter(s) given model $M_{i}$.
+\item $\pi(M_{i})$ is the prior on model $M_{i}$.
+\item Bayes Factor $M_{1}$ vs. $M_{2}$ is given by:
+
+\[
+\frac{\int_{\Theta}p(D | \theta)\pi(\theta | M_{1})d\theta}{\int_{\Theta}p(D | \theta)\pi(\theta | M_{2})d\theta}
+\]
+
+\end{enumerate}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
