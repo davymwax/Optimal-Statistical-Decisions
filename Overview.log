@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  30 AUG 2023 12:46
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  30 AUG 2023 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1940,27 +1940,30 @@ pping=tex-text;" at 6.0pt
 
 ] [16
 
-] (./Overview.bbl) [17
+]
+Requested font "ecrm2074" at 20.74pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
+ [17
 
-] [18
+] (./Overview.bbl) [18
+
+] [19
 
 ]
-Underfull \hbox (badness 4084) in paragraph at lines 267--267
+Underfull \hbox (badness 4084) in paragraph at lines 271--271
  []|\T1/FiraSans(0)/m/sc/14.4 Appendix: Sever-ity In-ter-pre-ta-tion for Neg-a-
 tive 
  []
 
-[19
+[20
 
 ]
-Underfull \hbox (badness 1590) in paragraph at lines 275--275
+Underfull \hbox (badness 1590) in paragraph at lines 279--279
  []|\T1/FiraSans(0)/m/sc/14.4 Appendix: Sever-ity In-ter-pre-ta-tion for Sig-ni
 f-i-cant 
  []
 
-[20
-
-] [21
+[21
 
 ] [22
 
@@ -1968,7 +1971,50 @@ f-i-cant
 
 ] [24
 
-] [25
+]
+Requested font "[lmromandemi10-regular]:mapping=tex-text;" at 10.95pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromandemi10-r
+egular.otf
+Requested font "[lmromandemi10-regular]:mapping=tex-text;" at 8.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromandemi10-r
+egular.otf
+Requested font "[lmromandemi10-regular]:mapping=tex-text;" at 6.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromandemi10-r
+egular.otf
+Requested font "cmmib10" at 10.95pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+Requested font "cmmib8" at 8.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8
+.tfm
+Requested font "cmmib6" at 6.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6
+.tfm
+Requested font "cmbsy10" at 10.95pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+Requested font "cmbsy8" at 8.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8
+.tfm
+Requested font "cmbsy6" at 6.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6
+.tfm
+
+
+LaTeX Font Warning: Font shape `T1/FiraSans(0)/b/n' undefined
+(Font)              using `T1/FiraSans(0)/m/n' instead on input line 355.
+
+
+LaTeX Font Warning: Font shape `T1/FiraSans(0)/b/it' undefined
+(Font)              using `T1/FiraSans(0)/b/n' instead on input line 355.
+
+Requested font "cmbx10" at 10.95pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+Requested font "cmbx8" at 8.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+Requested font "cmbx6" at 6.0pt
+ -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+[25
+
+] [26
 
 ]
 Requested font "ecrm0900" at 9.0pt
@@ -1991,7 +2037,7 @@ Requested font "msbm10" at 9.0pt
 .tfm
 Requested font "cmr9" at 9.0pt
  -> /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
- [26
+ [27
 
 ]
 \tf@nav=\write5
@@ -2003,23 +2049,23 @@ Requested font "cmr9" at 9.0pt
 \tf@snm=\write7
 \openout7 = `Overview.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
  (./Overview.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 427.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 427.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 431.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 431.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28399 strings out of 479418
- 589265 string characters out of 5884586
+ 28447 strings out of 479418
+ 590063 string characters out of 5884586
  865864 words of memory out of 5000000
- 45232 multiletter control sequences out of 15000+600000
- 548785 words of font info for 134 fonts, out of 8000000 for 9000
+ 45266 multiletter control sequences out of 15000+600000
+ 552351 words of font info for 147 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,14n,112p,812b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Overview.pdf (26 pages).
+Output written on Overview.pdf (27 pages).

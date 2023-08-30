@@ -224,7 +224,11 @@ For the error statistician, as long as an account is restricted to priors and li
 	\end{enumerate}
 	
 	\end{frame}
-    
+
+\begin{frame}[focus]{The End}
+        Thank you.
+\end{frame}
+
 \appendix
     \begin{frame}{References}
         \bibliographystyle{Naturalism}
@@ -332,27 +336,27 @@ And the Likelihood Principle}
         \begin{columns}[t, onlytextwidth]
             \column{0.45\textwidth}
                 \begin{equation}
-\pi(M_{1} | D) = \frac{p(D | M_{1}) \pi(M_{1})}{p(D)}
+\pi(M_{1} | \boldsymbol{X}) = \frac{p(\boldsymbol{X} | M_{1}) \pi(M_{1})}{p(\boldsymbol{X})}
 \end{equation}
 
 \begin{equation}
-\pi(M_{2} | D) = \frac{p(D | M_{2}) \pi(M_{2})}{p(D)} 
+\pi(M_{2} | \boldsymbol{X}) = \frac{p(\boldsymbol{X} | M_{2}) \pi(M_{2})}{p(\boldsymbol{X})} 
 \end{equation}
             
             \column{0.50\textwidth}
 Write equation (1) and (2) as:
 \begin{equation}
-\frac{\pi(M_{1} | D)}{\pi(M_{1})} = \frac{p(D | M_{1})}{p(D)}
+\frac{\pi(M_{1} | \boldsymbol{X})}{\pi(M_{1})} = \frac{p(\boldsymbol{X} | M_{1})}{p(\boldsymbol{X})}
 \end{equation}
 \begin{equation}
-\frac{\pi(M_{2} | D)}{\pi(M_{2})} = \frac{p(D | M_{2})}{p(D)}
+\frac{\pi(M_{2} | \boldsymbol{X})}{\pi(M_{2})} = \frac{p(\boldsymbol{X} | M_{2})}{p(\boldsymbol{X})}
 \end{equation}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Appendix: Bayes Factor}
 \begin{equation}
-\frac{\frac{\pi(M_{1} | D)}{\pi(M_{1})}}{\frac{\pi(M_{2} | D)}{\pi(M_{2})}} = \boxed{\frac{p(D | M_{1})}{p(D | M_{2})}}
+\frac{\frac{\pi(M_{1} | \boldsymbol{X})}{\pi(M_{1})}}{\frac{\pi(M_{2} | \boldsymbol{X})}{\pi(M_{2})}} = \boxed{\frac{p(\boldsymbol{X} | M_{1})}{p(\boldsymbol{X} | M_{2})}}
 \end{equation}
 
 The right hand side of equation (5) can be used to quantify the \textbf{relative predictive accuracy} of our models. This quotient is the \textbf{Bayes Factor}.
@@ -361,7 +365,7 @@ The right hand side of equation (5) can be used to quantify the \textbf{relative
 \begin{frame}{Appendix: Bayes' Theorem Continuous Case}
 
 \[
-\pi(M_{1}| D) = \frac{\int_{\Theta}p(D | \theta)\pi(\theta | M_{1})d\theta \pi(M_{1})}{\sum_{i = 1}^{n}\int_{\Theta}p(D | \theta)\pi(\theta | M_{i})d\theta \pi(M_{i})}
+\pi(M_{1}| \boldsymbol{X}) = \frac{\int_{\Theta}p(\boldsymbol{X} | \theta)\pi(\theta | M_{1})d\theta \pi(M_{1})}{\sum_{i = 1}^{n}\int_{\Theta}p(\boldsymbol{X} | \theta)\pi(\theta | M_{i})d\theta \pi(M_{i})}
 \]
 \vfill
 \begin{enumerate}
@@ -372,7 +376,7 @@ The right hand side of equation (5) can be used to quantify the \textbf{relative
 \item Bayes Factor $M_{1}$ vs. $M_{2}$ is given by:
 
 \[
-\frac{\int_{\Theta}p(D | \theta)\pi(\theta | M_{1})d\theta}{\int_{\Theta}p(D | \theta)\pi(\theta | M_{2})d\theta}
+\frac{\int_{\Theta}p(\boldsymbol{X}| \theta)\pi(\theta | M_{1})d\theta}{\int_{\Theta}p(\boldsymbol{X} | \theta)\pi(\theta | M_{2})d\theta}
 \]
 
 \end{enumerate}
