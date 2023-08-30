@@ -217,7 +217,7 @@ LR = $\frac{f(Y = y \,;\, \theta \in \Theta_{1})}{f(Y = y \,; \,\theta \in \Thet
 
 >- Call this \textbf{the choice of rejection region} view of statistical tests. (\textbf{Choice View}, for short)
 
->- On the Choice View, a statistical test is a decision problem (something which Wald (1945) later realized).
+>- On the Choice View, a statistical test is a decision problem (something which Wald later realized).
 
 ***
 
@@ -534,8 +534,11 @@ The Bayes factor is not a measure of the mere size of an effect. Hence, the meas
 
 >- This is our sample small optimal test theory. The details will be added.
 
+***
 
-
+\begin{center}
+THANK YOU
+\end{center}
 
 
 
